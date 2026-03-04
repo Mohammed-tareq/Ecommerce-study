@@ -35,11 +35,16 @@ Cart Item Schema
 
 Order Schema
     user_id
+   transaction_id
+    total_price
+    status
+
+order item schema
+    order_id
     product_id
     qty
     product_price
     total_price
-    order_status
 
 transactions schema
     order_id
